@@ -1,0 +1,548 @@
+def rice(n=100):
+    print()
+    print("\033[36m              << RICE >>\033[m")
+    print()
+    while True:
+        try:
+            n = float(input("Inform the rice weight in grams: "))
+            break
+        except:
+            print("\033[31mError!\033[m")
+    g = 100
+    cal = 130
+    c = 28.2
+    p = 2.6
+    fat = 0.4
+    f = 1.1
+    rcal = (n * cal) / g
+    calorie.append(rcal)
+    rc = (n * c) / g
+    carbo.append(rc)
+    rp = (n * p) / g
+    protein.append(rp)
+    rfat = (n * fat) / g
+    fatt.append(rfat)
+    rf = (n * f) / g
+    fiber.append(rf)
+    return(print(f"""\033[31mAlright! {n:.0f}g of rice has:\033[m
+
+\033[34m----------------------------------------\033[m
+\033[32m{rcal:.0f}g of Calorie
+{rc:.0f}g of Carbohydrate
+{rp:.0f}g of Protein
+{rfat:.0f}g of Fat
+{rf:.0f}g of Fiber\033[m
+\033[34m----------------------------------------\033[m"""))
+
+
+def bean(n=100):
+    print()
+    print("\033[36m              << BEAN >>\033[m")
+    print()
+    while True:
+        try:
+            n = float(input("Inform the bean weight in grams: "))
+            break
+        except:
+            print("\033[31mError!\033[m")
+    g = 100
+    cal = 76
+    c = 13.6
+    p = 4.8
+    fat = 0.5
+    f = 8.5
+    rcal = (n * cal) / g
+    calorie.append(rcal)
+    rc = (n * c) / g
+    carbo.append(rc)
+    rp = (n * p) / g
+    protein.append(rp)
+    rfat = (n * fat) / g
+    fatt.append(rfat)
+    rf = (n * f) / g
+    fiber.append(rf)
+    return (print(f"""\033[31mAlright! {n:.0f}g of bean has:\033[m
+
+\033[34m----------------------------------------\033[m
+\033[32m{rcal:.0f}g of Calorie
+{rc:.0f}g of Carbohydrate
+{rp:.0f}g of Protein
+{rfat:.0f}g of Fat
+{rf:.0f}g of Fiber\033[m
+\033[34m----------------------------------------\033[m"""))
+
+
+def soyprotein(n=100):
+    print()
+    print("\033[36m           << SOY PROTEIN >>\033[m")
+    print()
+    while True:
+        try:
+            n = float(input("Inform the soy protein weight in grams: "))
+            break
+        except:
+            print("\033[31mError!\033[m")
+    g = 100
+    cal = 172
+    c = 10
+    p = 17
+    fat = 0
+    f = 6
+    rcal = (n * cal) / g
+    calorie.append(rcal)
+    rc = (n * c) / g
+    carbo.append(rc)
+    rp = (n * p) / g
+    protein.append(rp)
+    rfat = (n * fat) / g
+    fatt.append(rfat)
+    rf = (n * f) / g
+    fiber.append(rf)
+    return (print(f"""\033[31mAlright! {n:.0f}g of soy protein has:\033[m
+
+\033[34m----------------------------------------\033[m
+\033[32m{rcal:.0f}g of Calorie
+{rc:.0f}g of Carbohydrate
+{rp:.0f}g of Protein
+{rfat:.0f}g of Fat
+{rf:.0f}g of Fiber\033[m
+\033[34m----------------------------------------\033[m"""))
+
+
+def soyprotein2(n=100):
+    print()
+    print("\033[36m           << SOY PROTEIN 2 >>\033[m")
+    print()
+    while True:
+        try:
+            n = float(input("Inform the soy protein 2 weight in grams: "))
+            break
+        except:
+            print("\033[31mError!\033[m")
+    g = 20
+    cal = 76
+    c = 1
+    p = 18
+    fat = 0
+    f = 0.8
+    rcal = (n * cal) / g
+    calorie.append(rcal)
+    rc = (n * c) / g
+    carbo.append(rc)
+    rp = (n * p) / g
+    protein.append(rp)
+    rfat = (n * fat) / g
+    fatt.append(rfat)
+    rf = (n * f) / g
+    fiber.append(rf)
+    return (print(f"""\033[31mAlright! {n:.0f}g of soy protein 2 has:\033[m
+
+\033[34m----------------------------------------\033[m
+\033[32m{rcal:.0f}g of Calorie
+{rc:.0f}g of Carbohydrate
+{rp:.0f}g of Protein
+{rfat:.0f}g of Fat
+{rf:.0f}g of Fiber\033[m
+\033[34m----------------------------------------\033[m"""))
+
+
+def egg(n=100):
+    print()
+    print("\033[36m               << EGG >>\033[m")
+    print()
+    while True:
+        try:
+            n = float(input("Inform the egg weight in grams: "))
+            break
+        except:
+            print("\033[31mError!\033[m")
+    g = 100
+    cal = 143
+    c = 1.6
+    p = 13
+    fat = 8.9
+    f = 0
+    rcal = (n * cal) / g
+    calorie.append(rcal)
+    rc = (n * c) / g
+    carbo.append(rc)
+    rp = (n * p) / g
+    protein.append(rp)
+    rfat = (n * fat) / g
+    fatt.append(rfat)
+    rf = (n * f) / g
+    fiber.append(rf)
+    return(print(f"""\033[31mAlright! {n:.0f}g of egg has:\033[m
+
+\033[34m----------------------------------------\033[m
+\033[32m{rcal:.0f}g of Calorie
+{rc:.0f}g of Carbohydrate
+{rp:.0f}g of Protein
+{rfat:.0f}g of Fat
+{rf:.0f}g of Fiber\033[m
+\033[34m----------------------------------------\033[m"""))
+
+
+def sweetpotato(n=100):
+    print()
+    print("\033[36m          << SWEET POTATO >>\033[m")
+    print()
+    while True:
+        try:
+            n = float(input("Inform the sweet potato weight in grams: "))
+            break
+        except:
+            print("\033[31mError!\033[m")
+    g = 100
+    cal = 77
+    c = 18.4
+    p = 0.6
+    fat = 0.1
+    f = 2.2
+    rcal = (n * cal) / g
+    calorie.append(rcal)
+    rc = (n * c) / g
+    carbo.append(rc)
+    rp = (n * p) / g
+    protein.append(rp)
+    rfat = (n * fat) / g
+    fatt.append(rfat)
+    rf = (n * f) / g
+    fiber.append(rf)
+    return(print(f"""\033[31mAlright! {n:.0f}g of sweet potato has:\033[m
+
+\033[34m----------------------------------------\033[m
+\033[32m{rcal:.0f}g of Calorie
+{rc:.0f}g of Carbohydrate
+{rp:.0f}g of Protein
+{rfat:.0f}g of Fat
+{rf:.0f}g of Fiber\033[m
+\033[34m----------------------------------------\033[m"""))
+
+
+def banana(n=100):
+    print()
+    print("\033[36m             << BANANA >>\033[m")
+    print()
+    while True:
+        try:
+            n = float(input("Inform the banana weight in grams: "))
+            break
+        except:
+            print("\033[31mError!\033[m")
+    g = 100
+    cal = 92
+    c = 23.8
+    p = 1.4
+    fat = 0.1
+    f = 1.9
+    rcal = (n * cal) / g
+    calorie.append(rcal)
+    rc = (n * c) / g
+    carbo.append(rc)
+    rp = (n * p) / g
+    protein.append(rp)
+    rfat = (n * fat) / g
+    fatt.append(rfat)
+    rf = (n * f) / g
+    fiber.append(rf)
+    return(print(f"""\033[31mAlright! {n:.0f}g of banana has:\033[m
+
+\033[34m----------------------------------------\033[m
+\033[32m{rcal:.0f}g of Calorie
+{rc:.0f}g of Carbohydrate
+{rp:.0f}g of Protein
+{rfat:.0f}g of Fat
+{rf:.0f}g of Fiber\033[m
+\033[34m----------------------------------------\033[m"""))
+
+
+def oat(n=100):
+    print()
+    print("\033[36m               << OAT >>\033[m")
+    print()
+    while True:
+        try:
+            n = float(input("Inform the oat weight in grams: "))
+            break
+        except:
+            print("\033[31mError!\033[m")
+    g = 100
+    cal = 394
+    c = 66.6
+    p = 13.9
+    fat = 8.5
+    f = 9.1
+    rcal = (n * cal) / g
+    calorie.append(rcal)
+    rc = (n * c) / g
+    carbo.append(rc)
+    rp = (n * p) / g
+    protein.append(rp)
+    rfat = (n * fat) / g
+    fatt.append(rfat)
+    rf = (n * f) / g
+    fiber.append(rf)
+    return(print(f"""\033[31mAlright! {n:.0f}g of oat has:\033[m
+
+\033[34m----------------------------------------\033[m
+\033[32m{rcal:.0f}g of Calorie
+{rc:.0f}g of Carbohydrate
+{rp:.0f}g of Protein
+{rfat:.0f}g of Fat
+{rf:.0f}g of Fiber\033[m
+\033[34m----------------------------------------\033[m"""))
+
+
+def peanut(n=100):
+    print()
+    print("\033[36m              << PEANUT >>\033[m")
+    print()
+    while True:
+        try:
+            n = float(input("Inform the peanut weight in grams: "))
+            break
+        except:
+            print("\033[31mError!\033[m")
+    g = 100
+    cal = 606
+    c = 18.7
+    p = 22.5
+    fat = 54
+    f = 7.8
+    rcal = (n * cal) / g
+    calorie.append(rcal)
+    rc = (n * c) / g
+    carbo.append(rc)
+    rp = (n * p) / g
+    protein.append(rp)
+    rfat = (n * fat) / g
+    fatt.append(rfat)
+    rf = (n * f) / g
+    fiber.append(rf)
+    return(print(f"""\033[31mAlright! {n:.0f}g of peanut has:\033[m
+
+\033[34m----------------------------------------\033[m
+\033[32m{rcal:.0f}g of Calorie
+{rc:.0f}g of Carbohydrate
+{rp:.0f}g of Protein
+{rfat:.0f}g of Fat
+{rf:.0f}g of Fiber\033[m
+\033[34m----------------------------------------\033[m"""))
+
+
+def tapioca(n=100):
+    print()
+    print("\033[36m            << TAPIOCA >>\033[m")
+    print()
+    while True:
+        try:
+            n = float(input("Inform the tapioca weight in grams: "))
+            break
+        except:
+            print("\033[31mError!\033[m")
+    g = 60
+    cal = 145
+    c = 36
+    p = 0
+    fat = 0
+    f = 0
+    rcal = (n * cal) / g
+    calorie.append(rcal)
+    rc = (n * c) / g
+    carbo.append(rc)
+    rp = (n * p) / g
+    protein.append(rp)
+    rfat = (n * fat) / g
+    fatt.append(rfat)
+    rf = (n * f) / g
+    fiber.append(rf)
+    return(print(f"""\033[31mAlright! {n:.0f}g of tapioca has:\033[m
+
+\033[34m----------------------------------------\033[m
+\033[32m{rcal:.0f}g of Calorie
+{rc:.0f}g of Carbohydrate
+{rp:.0f}g of Protein
+{rfat:.0f}g of Fat
+{rf:.0f}g of Fiber\033[m
+\033[34m----------------------------------------\033[m"""))
+
+
+def cheese(n=100):
+    print()
+    print("\033[36m            << CHEESE >>\033[m")
+    print()
+    while True:
+        try:
+            n = float(input("Inform the cheese weight in grams: "))
+            break
+        except:
+            print("\033[31mError!\033[m")
+    g = 100
+    cal = 330
+    c = 3
+    p = 22.6
+    fat = 25.2
+    f = 0
+    rcal = (n * cal) / g
+    calorie.append(rcal)
+    rc = (n * c) / g
+    carbo.append(rc)
+    rp = (n * p) / g
+    protein.append(rp)
+    rfat = (n * fat) / g
+    fatt.append(rfat)
+    rf = (n * f) / g
+    fiber.append(rf)
+    return(print(f"""\033[31mAlright! {n:.0f}g of cheese has:\033[m
+
+\033[34m----------------------------------------\033[m
+\033[32m{rcal:.0f}g of Calorie
+{rc:.0f}g of Carbohydrate
+{rp:.0f}g of Protein
+{rfat:.0f}g of Fat
+{rf:.0f}g of Fiber\033[m
+\033[34m----------------------------------------\033[m"""))
+
+
+def butter(n=100):
+    print()
+    print("\033[36m            << BUTTER >>\033[m")
+    print()
+    while True:
+        try:
+            n = float(input("Inform the butter weight in grams: "))
+            break
+        except:
+            print("\033[31mError!\033[m")
+    g = 10
+    cal = 34
+    c = 0
+    p = 0
+    fat = 3.8
+    f = 0
+    rcal = (n * cal) / g
+    calorie.append(rcal)
+    rc = (n * c) / g
+    carbo.append(rc)
+    rp = (n * p) / g
+    protein.append(rp)
+    rfat = (n * fat) / g
+    fatt.append(rfat)
+    rf = (n * f) / g
+    fiber.append(rf)
+    return(print(f"""\033[31mAlright! {n:.0f}g of butter has:\033[m
+
+\033[34m----------------------------------------\033[m
+\033[32m{rcal:.0f}g of Calorie
+{rc:.0f}g of Carbohydrate
+{rp:.0f}g of Protein
+{rfat:.0f}g of Fat
+{rf:.0f}g of Fiber\033[m
+\033[34m----------------------------------------\033[m"""))
+
+
+def oliveoil(n=100):
+    print()
+    print("\033[36m            << OLIVE OIL >>\033[m")
+    print()
+    while True:
+        try:
+            n = float(input("Inform the olive oil weight in grams: "))
+            break
+        except:
+            print("\033[31mError!\033[m")
+    g = 13
+    cal = 108
+    c = 0
+    p = 0
+    fat = 12
+    f = 0
+    rcal = (n * cal) / g
+    calorie.append(rcal)
+    rc = (n * c) / g
+    carbo.append(rc)
+    rp = (n * p) / g
+    protein.append(rp)
+    rfat = (n * fat) / g
+    fatt.append(rfat)
+    rf = (n * f) / g
+    fiber.append(rf)
+    return(print(f"""\033[31mAlright! {n:.0f}g of olive oil has:\033[m
+
+\033[34m----------------------------------------\033[m
+\033[32m{rcal:.0f}g of Calorie
+{rc:.0f}g of Carbohydrate
+{rp:.0f}g of Protein
+{rfat:.0f}g of Fat
+{rf:.0f}g of Fiber\033[m
+\033[34m----------------------------------------\033[m"""))
+
+
+def sugar(n=100):
+    print()
+    print("\033[36m            << SUGAR >>\033[m")
+    print()
+    while True:
+        try:
+            n = float(input("Inform the sugar weight in grams: "))
+            break
+        except:
+            print("\033[31mError!\033[m")
+    g = 100
+    cal = 387
+    c = 99.6
+    p = 0.3
+    fat = 0
+    f = 0
+    rcal = (n * cal) / g
+    calorie.append(rcal)
+    rc = (n * c) / g
+    carbo.append(rc)
+    rp = (n * p) / g
+    protein.append(rp)
+    rfat = (n * fat) / g
+    fatt.append(rfat)
+    rf = (n * f) / g
+    fiber.append(rf)
+    return(print(f"""\033[31mAlright! {n:.0f}g of sugar has:\033[m
+
+\033[34m----------------------------------------\033[m
+\033[32m{rcal:.0f}g of Calorie
+{rc:.0f}g of Carbohydrate
+{rp:.0f}g of Protein
+{rfat:.0f}g of Fat
+{rf:.0f}g of Fiber\033[m
+\033[34m----------------------------------------\033[m"""))
+
+
+
+
+calorie = []
+carbo = []
+protein = []
+fatt = []
+fiber = []
+
+print("\033[34m-=\033[m"*20)
+print("\033[33mWELCOME TO THE MACRONUTRIENT CALCULATOR\033[m")
+print("\033[34m-=\033[m"*20)
+rice()
+bean()
+soyprotein()
+soyprotein2()
+egg()
+sweetpotato()
+banana()
+oat()
+peanut()
+tapioca()
+cheese()
+butter()
+oliveoil()
+print()
+print(f"Total of daily Calorie: {sum(calorie):.0f}")
+print(f"Total of daily Carbohydrate: {sum(carbo):.0f}")
+print(f"Total of daily Protein: {sum(protein):.0f}")
+print(f"Total of daily Fat: {sum(fatt):.0f}")
+print(f"Total of daily Fiber: {sum(fiber):.0f}")
